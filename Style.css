@@ -1,0 +1,11 @@
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid 
+}
+#cellContain{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}

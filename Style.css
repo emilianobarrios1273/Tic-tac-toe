@@ -5,13 +5,23 @@
     font-size: 50px;
     cursor: pointer;
 }
+#title{
+    font-size: xx-large;
+}
 #PlayBoard{
     text-align: center;
+
+    font-size: 65px; 
+    cursor: pointer;
 }
 #cellContain{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+    justify-content: center;
+}
+#reset{
     text-align: center;
+    
 }

@@ -1,11 +1,17 @@
 .cell{
     width: 100px;
     height: 100px;
-    border: 2px solid 
+    border: 2px solid;
+    font-size: 50px;
+    cursor: pointer;
+}
+#PlayBoard{
+    text-align: center;
 }
 #cellContain{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+    text-align: center;
 }

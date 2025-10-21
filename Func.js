@@ -11,4 +11,13 @@ const wincon = [
     [0,4,8],
     [2,4,6],
  ];
- 
+ let options = ["","","","","","","","",""]
+ let activeplayer = "x";
+ let on = false
+
+ function startgame(){
+
+ }
+ function Cellchange(){
+
+ }

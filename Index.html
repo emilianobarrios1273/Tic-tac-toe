@@ -14,20 +14,40 @@
 <div id="PlayBoard">
         <H1 style="text-align: center;" id="title">TicTacToe</H1>
     <div id="cellContain">
-        <div cellindex="0" class="cell"></div>
-        <div cellindex="1" class="cell"></div>
-        <div cellindex="2" class="cell"></div>
-        <div cellindex="3" class="cell"></div>
-        <div cellindex="4" class="cell"></div>
-        <div cellindex="5" class="cell"></div>
-        <div cellindex="6" class="cell"></div>
-        <div cellindex="7" class="cell"></div>
-        <div cellindex="8" class="cell"></div>
+        <div cellindex="0" class="cell"><img id src=""></div>
+        <div cellindex="1" class="cell"><img src=""></div>
+        <div cellindex="2" class="cell"><img src=""></div>
+        <div cellindex="3" class="cell"><img src=""></div>
+        <div cellindex="4" class="cell"><img src=""></div>
+        <div cellindex="5" class="cell"><img src=""></div>
+        <div cellindex="6" class="cell"><img src=""></div>
+        <div cellindex="7" class="cell"><img src=""></div>
+        <div cellindex="8" class="cell"><img src=""></div>
 
     </div>
-    <h2 id="Status"></h2>
+    <h2 id="stattxt"></h2>
     <button id="reset">Play again</button>
-
+<br>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+imput name cunt
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text" id="p1N">
+        <input type="text" id="p2N">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -42,8 +62,7 @@
 
 
 
-
-
 <script src="Func.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

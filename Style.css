@@ -25,3 +25,14 @@
     text-align: center;
     
 }
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#p1N{
+    width: 450px;
+}
+#p2N{
+    width: 453px;
+}
